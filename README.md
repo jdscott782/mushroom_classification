@@ -13,4 +13,4 @@ Can mushroom samples be correctly identified as edible or poisonous based on a s
 
 For this analysis, five classification models were fit to the data. K-fold cross validation was used to assess the accuracy of each model. For the random forest and KNN classifiers, hyperparameter tuning was done to determine the optimal number of estimators and neighbors, respectively. The models compared for this analysis and their respective accuracies can be found below: 
 
-!(https://github.com/jdscott782/mushroom_classification/blob/main/model%20accuracy%20results.png)
+![](https://github.com/jdscott782/mushroom_classification/blob/main/model%20accuracy%20results.png)
