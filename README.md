@@ -28,5 +28,6 @@ For our purposes, the best model was the random forest classifier with an accura
 ## Weak points & further analysis
 
 This model does not have 100% accuracy so it is not a foolproof method to determine whether or not a collected mushroom is edible. Further hyperparameter tuning could be done to improve the accuracy closer to 100%, but that is beyond the scope of this analysis. For the purposes of our analysis, an accuracy of 95.8% is acceptable.
+
 Additionally, we included all 22 categorical variables as features in the model. Further analysis could be done to determine which features could be dropped without sacrificing accuracy, in order to improve the performance of the model.
 
