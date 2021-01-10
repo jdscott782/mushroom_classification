@@ -24,3 +24,9 @@ For our purposes, the best model was the random forest classifier with an accura
 * This can mean the difference between survival and death in certain instances, so it is important that the model has the highest possible accuracy. 
 * Since the model would likely not be usable out in the field, it would be less useful to survivalists and more useful for individuals collecting the mushrooms and later determining whether or not they are edible. That is, unless a portable application of the model could be created to test samples in the field.
 
+
+## Weak points & further analysis
+
+This model does not have 100% accuracy so it is not a foolproof method to determine whether or not a collected mushroom is edible. Further hyperparameter tuning could be done to improve the accuracy closer to 100%, but that is beyond the scope of this analysis. For the purposes of our analysis, an accuracy of 95.8% is acceptable.
+Additionally, we included all 22 categorical variables as features in the model. Further analysis could be done to determine which features could be dropped without sacrificing accuracy, in order to improve the performance of the model.
+
