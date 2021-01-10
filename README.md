@@ -1,5 +1,8 @@
 # mushroom_classification
-Mushroom classification model
+
+# **Capstone 2: Supervised learning**
+### **Mushroom classification model**
+Dataset: Mushroom records drawn from The Audubon Society Field Guide to North American Mushrooms (1981).
 
 ## Dataset & research question
 
