@@ -9,3 +9,8 @@ From this dataset we aim to determine the following:
 Can mushroom samples be correctly identified as edible or poisonous based on a set of physical attributes?
 
 
+## Model specification & results
+
+For this analysis, five classification models were fit to the data. K-fold cross validation was used to assess the accuracy of each model. For the random forest and KNN classifiers, hyperparameter tuning was done to determine the optimal number of estimators and neighbors, respectively. The models compared for this analysis and their respective accuracies can be found below: 
+
+![alt text](model accuracy results.png)
